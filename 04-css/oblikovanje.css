@@ -37,6 +37,9 @@ body {
         width: 100%;
         height: auto;
     }
+    .slika p:last-child {
+        font-size: 0.8em;
+    }
 }
 
 /*  Odstranimo podčrtovanje povezav in outline (ta se včasih pokaže kot kvadratek okrog povezave)  */
