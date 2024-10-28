@@ -1,6 +1,6 @@
 body {
     /*  Barva pisave pod značko oz. oznako  */
-    color: #333333; 
+    
     /*  Določanje pisave: brskalnik uporabi prvo v seznamu pisav, ki jo ima uporabnik nameščeno.
        Če ni nameščena nobena od naštetih pisav, se uporabi privzeta pisava brskalnika. */
     font-family: Garamond, "Hoefler Text", "Times New Roman", Times, serif;
@@ -17,6 +17,26 @@ body {
     margin: auto;
     /*  Obojestranska poravnava besedila    */
     text-align: justify;
+    h1 {color: #330066; }
+    h2{
+        margin-top: 2em;
+        border-top: 1px solid #AAAAAA;
+        padding: 0.5em;
+    }
+    #uvod {
+        padding: 2em;
+        background-color: rgb(51, 0, 102, 0.1);    
+    }
+    .slika {
+        font-size: 0.9em 40%;
+        text-align: left;
+        float: right;
+        margin-left: 2em;
+    }
+    .slika img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 /*  Odstranimo podčrtovanje povezav in outline (ta se včasih pokaže kot kvadratek okrog povezave)  */
