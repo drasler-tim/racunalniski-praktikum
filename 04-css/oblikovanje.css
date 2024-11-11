@@ -36,11 +36,19 @@ body {
     .slika img {
         width: 100%;
         height: auto;
+        border-radius: 50%;
     }
     .slika p:last-child {
         font-size: 0.8em;
+        margin-top: -20px;
+    }
+    a::before 
+    {
+        content: '🔗';
     }
 }
+        
+
 
 /*  Odstranimo podčrtovanje povezav in outline (ta se včasih pokaže kot kvadratek okrog povezave)  */
 a { text-decoration: none; outline:none; }
